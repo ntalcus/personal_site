@@ -1,0 +1,44 @@
+.content-parent {
+	text-align: center;
+	background-color: #ff8b8b;
+}
+
+.content {
+	border: 10px ridge #f1daff;
+	background-color: #ccffff; 
+	padding: .5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.img-container {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-container > img {
+  	border-radius: 4px;
+	box-shadow: 5px 5px #faaf59;  
+  	width: 420px;
+}
+
+.nav-parent {
+	background-color: aqua;
+	margin: auto 0;
+}
+
+.nav {
+	letter-spacing: .25vh;
+	border: 8px #c25acf;
+	align-content: center;
+}
+
+.nav-link {
+	color: #faaeef;
+	padding: 40px;
+}
+
+.nav-link :hover {
+	background-color: #6b22ac;
+}

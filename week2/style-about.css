@@ -1,0 +1,51 @@
+html, main {
+    background: pink;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+}
+
+
+.logo {
+    max-width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    /* align-content: space-between; */
+    justify-content: center;
+}
+  
+.column {
+    flex: 50%;
+    max-width: 400px;
+}
+
+.img-container {
+    /* background: rgba(255, 255, 255, 0.8); */
+    /* opacity: .5; */
+    height: auto
+}
+
+.main {
+    text-align: center;
+    
+}
+
+.header {
+    color: white;
+    padding: 10px 0px 10px 0;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: whitesmoke;
+}
+

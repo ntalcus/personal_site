@@ -1,13 +1,16 @@
 .flex-parent {
 	display: flex;
+	width: 100%
 }
 
 .title-box {
 	display: flex;
 	justify-content: center;
 	background-color: black;
-	margin: 10px;
 	width: 300px;
+
+	flex-grow: 1;
+	flex-basis: 0;	
 }
 
 .title-box p {
@@ -19,8 +22,6 @@
 
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
 
 	font-size: 30px;
 	letter-spacing: 3px;
@@ -29,17 +30,25 @@
 }
 
 .center-box {
+	align-items: center;
+	width: 100%;
+	flex-grow: 1;
+	flex-basis: 0;	
+	flex-direction: column;
 }
 
 .center-box ul {
-	border: 10px;
-	margin:0px auto;
 	list-style-type: none;
-	height: 100%;
-	justify-content: space-around; 
-	align-items: center;
+
+	/* trying to center the list in the frigging div gosh darn it */
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 
 }
 
 
-
+.center-box ul li {
+	align-self: center;
+}
