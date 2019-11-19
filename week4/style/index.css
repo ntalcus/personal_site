@@ -1,0 +1,45 @@
+.flex-parent {
+	display: flex;
+}
+
+.title-box {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	margin: 10px;
+	width: 300px;
+}
+
+.title-box p {
+	justify-content: center;
+
+	display: inline-block;
+
+	color: white;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+	font-size: 30px;
+	letter-spacing: 3px;
+
+
+}
+
+.center-box {
+}
+
+.center-box ul {
+	border: 10px;
+	margin:0px auto;
+	list-style-type: none;
+	height: 100%;
+	justify-content: space-around; 
+	align-items: center;
+
+}
+
+
+
