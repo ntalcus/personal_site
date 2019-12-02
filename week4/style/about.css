@@ -1,0 +1,29 @@
+.about-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.about-body p {
+    font-size: 40px;
+}
+
+.hobby-list {
+    list-style-type: none;
+    font-size: 35px;
+}
+
+.hobby-list >  li {
+    margin: 15px;
+}
+
+.hobby-list > li:before {
+    content: "\2014\a0 ";
+}
+
+.coffee {
+    /* margin-left: 40px; */
+    font-style: italic;
+}

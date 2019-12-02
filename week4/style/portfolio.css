@@ -1,0 +1,11 @@
+.about-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.about-body ul {
+    font-size: 40px;
+}

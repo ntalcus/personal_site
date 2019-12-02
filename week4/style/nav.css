@@ -1,0 +1,23 @@
+.nav {
+    
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.nav {
+    color: #131313;
+}
+
+.nav:visited {
+    color: #422f2f;
+}
+
+.nav:hover {
+    color: mediumspringgreen;
+}
+
+.nav:active {
+    color: white;
+    background-color: darkgreen;
+}
