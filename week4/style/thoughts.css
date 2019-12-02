@@ -1,0 +1,25 @@
+.article-box {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    padding-top: 100px;
+}
+
+.article h3 {
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.article h3:hover {
+    color: mediumspringgreen;
+}
+
+.article p {
+    font-size: 30px;
+}

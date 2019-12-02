@@ -17,6 +17,10 @@
     
 }
 
+.title-box :hover {
+    color: mediumspringgreen;
+}
+
 .title-box p {
 	justify-content: center;
 
